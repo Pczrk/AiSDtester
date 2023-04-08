@@ -1,5 +1,6 @@
 import os
 
+passed = 0
 input_dir = './in'
 output_dir = './out'
 program = 'solver.py'
@@ -22,9 +23,11 @@ for input_file in input_files:
         with open(temp_output_path, 'r') as f1, open(expected_output_path, 'r') as f2:
             if f1.read() == f2.read():
                 print(f'{input_file} PASSED')
+                passed += 1
             else:
                 print(f'{input_file} FAILED')
     except FileNotFoundError:
         print(f'{expected_output_path} not found')
 
     os.remove(temp_output_path)
+print(f"\n{passed}/{tests} PASSED")
