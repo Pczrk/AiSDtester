@@ -18,9 +18,19 @@ i wtedy poprawię testy :)
 2. Uruchom plik `sprawdzarka.py`, aby przetestować swój kod.
 3. Przy każdym teście napisane jest, czy twój program przeszedł dany test.
 
+## Ewentualne błędy
+Napisałem sprawdzarkę, aby dało się odpalić ją zarówno na Linuxie, jak i na
+Windowsie. Jeżeli jednak Windowsie wyjście ze sprawdzarki wygląda w ten sposób:
+![zdjęcie](windows.png), to CMD próbuje nam powiedzieć,
+że nie może znaleźć programu Python, ale nie jest w stanie wyświetlić pełnej
+informacji, bo dławi się na polskich znakach. Aby to naprawić, trzeba dodać
+ścieżkę do Pythona do zmiennych środowiskowych.
+[Tutaj link z quickfixem.](https://inferiordatascience.com/jak-dodac-pythona-do-path-windows-10/)
+
 ## Struktura katalogów
 
 - `solver.py` - plik, w którym powinno się umieścić swój kod rozwiązujący zadanie.
 - `sprawdzarka.py` - plik, który należy uruchomić w celu przetestowania rozwiązania.
 - `in/` - katalog zawierający pliki wejściowe do testów.
 - `out/` - katalog zawierający oczekiwane wyniki testów.
+
