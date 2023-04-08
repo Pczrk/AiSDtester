@@ -19,12 +19,12 @@ i wtedy poprawię testy :)
 3. Przy każdym teście napisane jest, czy twój program przeszedł dany test.
 
 ## Ewentualne błędy
-Napisałem sprawdzarkę, aby dało się odpalić ją zarówno na Linuxie, jak i na
-Windowsie. Jeżeli jednak Windowsie wyjście ze sprawdzarki wygląda w ten sposób:
-![zdjęcie](windows.png), to CMD próbuje nam powiedzieć,
-że nie może znaleźć programu Python, ale nie jest w stanie wyświetlić pełnej
-informacji, bo dławi się na polskich znakach. Aby to naprawić, trzeba dodać
-ścieżkę do Pythona do zmiennych środowiskowych.
+Napisałem sprawdzarkę, aby dało się odpalić ją zarówno na Linuxie, jak i na Windowsie. Jeżeli jednak Windowsie wyjście ze sprawdzarki wygląda w ten sposób:
+
+<img src="windows.png" alt="zdjęcie" style="display: block; margin: 0 auto;">
+
+to CMD próbuje nam powiedzieć, że nie może znaleźć programu Python, ale nie jest w stanie wyświetlić pełnej informacji, bo dławi się na polskich znakach. Aby to naprawić, trzeba dodać ścieżkę do Pythona do zmiennych środowiskowych. (max 2 minuty)
+
 [Tutaj link z quickfixem.](https://inferiordatascience.com/jak-dodac-pythona-do-path-windows-10/)
 
 ## Struktura katalogów
