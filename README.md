@@ -6,11 +6,13 @@ Cześć! To repozytorium zawiera narzędzie, które pomaga w testowaniu rozwiąz
 Jako że w naszej wersji testowej rozwiązania na UPL-u są tylko 3 testy, dodatkowo nie sprawdzają one nawet wszystkich funkcji,
 postanowiłem sam napisać sprawdzarkę, żebyśmy mogli porównać rozwiązania i nawzajem sprawdzić, czy mamy poprawne.
 
-Uwaga: testy mogą nie być na 100% poprawne.
-Dlatego, jeżeli uważasz, że masz zrobione dobrze zadanie,
+### Disclaimer
+Używam [tego algorytmu partition](https://imgur.com/a/xIP3Ysj), nie jestem pewny, czy jest to na pewno algorytm z wydania Coremena Kamińskiego,
+więc jak ktoś ma pod ręką książkę i jest tam inny algorytm to proszę o podesłanie, poprawie testy.
+Testy mogą nie być na 100% poprawne, dlatego, jeżeli uważasz, że masz zrobione dobrze zadanie,
 a wyniki wychodzą inne,
 proszę o kontakt na PW discord: `MrPatyk#1501` lub messenger: `Patryk Skowron`
-i wtedy poprawię testy :)
+i wtedy poprawię testy. Jak potwierdzacie, że testy są prawidłowe, możecie dać like pod wiadomością na msg lub discordzie.
 
 ## Instrukcja obsługi
 
