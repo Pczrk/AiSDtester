@@ -27,6 +27,16 @@ to CMD próbuje nam powiedzieć, że nie może znaleźć programu Python, ale ni
 
 [Tutaj link z quickfixem.](https://inferiordatascience.com/jak-dodac-pythona-do-path-windows-10/)
 
+## Testy:
+
+- `[1;10)` testy selection sorta n = 5
+- `[10;20)` testy bubble sorta n = 5
+- `[20;30)` testy bucket sorta n = 5
+- `[30;40)` testy merge sorta n = 5 
+- `[40;50)` testy quick sorta n = 5
+- `[50;60)` różne testy
+- `[60;200]` testy z wielkością tablicy 100 każdego sortowania
+
 ## Struktura katalogów
 
 - `solver.py` - plik, w którym powinno się umieścić swój kod rozwiązujący zadanie.
