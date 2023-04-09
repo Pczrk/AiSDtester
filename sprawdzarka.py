@@ -17,6 +17,7 @@ for input_file in input_files:
 
     temp_output_path = 'temp.txt'
     command = f'python {program} < {input_path} > {temp_output_path}'
+    # command = f'python3 {program} < {input_path} > {temp_output_path}' <--- jezeli nie dziala komenda wyzej to odkomentowac ta
     os.system(command)
 
     try:

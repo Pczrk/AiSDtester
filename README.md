@@ -31,7 +31,12 @@ i wtedy poprawię testy. Jak potwierdzacie, że testy są prawidłowe, możecie 
 - `[60;200]` testy z wielkością tablicy 100 każdego sortowania
 
 
-## Ewentualne błędy na Windows
+## Ewentualne błędy
+#### python vs python3
+Możliwe, że masz zainstalowanego pythona, który w cmd/terminalu nie kryje się
+pod nazwa "python" tylko "python3", wtedy trzeba od komentować 20 linijkę.
+
+#### Windows
 Napisałem sprawdzarkę, aby dało się odpalić ją zarówno na Linuxie, jak i na Windowsie. Jeżeli jednak na Windowsie wyjście ze sprawdzarki wygląda w ten sposób:
 
 <img src="windows.png" alt="zdjęcie" style="display: block; margin: 0 auto;">
