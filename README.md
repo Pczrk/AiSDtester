@@ -7,8 +7,6 @@ Jako że w naszej wersji testowej rozwiązania na UPL-u są tylko 3 testy, dodat
 postanowiłem sam napisać sprawdzarkę, żebyśmy mogli porównać rozwiązania i nawzajem sprawdzić, czy mamy poprawne.
 
 ### Disclaimer
-Używam [tego algorytmu partition](https://imgur.com/a/xIP3Ysj), nie jestem pewny, czy jest to na pewno algorytm z wydania Coremena Kamińskiego,
-więc jak ktoś ma pod ręką książkę i jest tam inny algorytm to proszę o podesłanie, poprawie testy.
 Testy mogą nie być na 100% poprawne, dlatego, jeżeli uważasz, że masz zrobione dobrze zadanie,
 a wyniki wychodzą inne,
 proszę o kontakt na PW discord: `MrPatyk#1501` lub messenger: `Patryk Skowron`
@@ -22,7 +20,7 @@ i wtedy poprawię testy. Jak potwierdzacie, że testy są prawidłowe, możecie 
 
 ## Testy:
 
-- `[1;10)` testy selection sorta n = 5
+- `[1;10)` testy insertion sorta n = 5
 - `[10;20)` testy bubble sorta n = 5
 - `[20;30)` testy bucket sorta n = 5
 - `[30;40)` testy merge sorta n = 5 
@@ -44,6 +42,13 @@ Napisałem sprawdzarkę, aby dało się odpalić ją zarówno na Linuxie, jak i 
 to CMD próbuje nam powiedzieć, że nie może znaleźć programu Python, ale nie jest w stanie wyświetlić pełnej informacji, bo dławi się na polskich znakach. Aby to naprawić, trzeba dodać ścieżkę do Pythona do zmiennych środowiskowych. (max 2 minuty)
 
 [Tutaj link z hotfixem.](https://inferiordatascience.com/jak-dodac-pythona-do-path-windows-10/)
+
+## Algorytmy z Cormena:
+- [Insertion sort](https://imgur.com/a/4Nu0pDW)
+- [Bubble sort](https://imgur.com/a/eibt5gK)
+- [Bucket sort](https://imgur.com/a/yTPMHTM)
+- [Merge sort](https://imgur.com/a/Av4uRTR)
+- [Quick sort](https://imgur.com/a/lB7yeJo)
 
 ## Struktura katalogów
 
